@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrollbars from appearing when the canvas is resized */
+  background-color: #6a6a6a;
+}
+
+canvas {
+  display: block; /* Removes the default inline behavior to prevent extra space below the canvas */
+}
